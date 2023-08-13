@@ -1,0 +1,119 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #f90;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.user-options a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h3:hover{
+color: blue;
+}
+
+button:hover{
+    background-color: grey;
+}
+.product-listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-1  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-1 img {
+    max-width: 100%;
+}
+
+.product-2  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-2 img {
+    max-width: 100%;
+}
+.product-3  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-3 img {
+    max-width: 100%;
+}
+
+.product-4  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-4 img {
+    max-width: 100%;
+}
+.product-5  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-5 img {
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
